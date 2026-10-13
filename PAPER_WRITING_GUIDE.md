@@ -20,6 +20,8 @@ Your final paper is a core part of this project. It must:
   * Conclusion
   * References
 
+**Do not delete parts of the template.** Points will be deducted when required elements of the LNCS template are removed, such as the authors, their emails, or the keywords, or when whole required sections are missing. See [RUBRIC.md](RUBRIC.md) for the deductions.
+
 ### 2. Getting Started with Overleaf
 
 [Overleaf](https://www.overleaf.com) is an online LaTeX editor that we'll use for this project. It's like Google Docs for scientific papers.
@@ -33,6 +35,11 @@ Your final paper is a core part of this project. It must:
     * Click the `Share` button in the top right.
     * **To share with your team:** Enter your teammates' email addresses to give them `Can Edit` access.
     * **To submit for review:** Click `Turn on link sharing`. Copy the **"Anyone with this link can view"** link (**not** the edit link) and paste it into your `SUBMISSION.md` file in your project repository.
+4. **Generate the PDF (`paper.pdf`):**
+    * Click `Recompile` and make sure the paper compiles without errors.
+    * Click the download icon above the PDF preview to download the PDF.
+    * Rename the downloaded file to `paper.pdf` and use it to replace the placeholder `paper.pdf` at the top level of your project repository.
+    * Commit and push. Regenerate and replace `paper.pdf` whenever you update the paper, so the PDF in the repository matches your Overleaf project.
 
 ### 3. Essential LaTeX & Writing Tips
 
@@ -89,7 +96,7 @@ All citations go in the `mybibliography.bib` file.
 
 ### 4. Your Two Challenges
 
-Your paper names **two** visualization challenges: your own **primary challenge** and the required **reachability challenge** (see [ASSIGNMENT.md](ASSIGNMENT.md)). The Results section has a subsection for each. For the pre-submission, write the whole paper as final, describe what you have not done yet as a plan, and use marked placeholders for tables and images.
+Your paper names **two** visualization challenges: your own **primary challenge** and the required **reachability challenge** (see [ASSIGNMENT.md](ASSIGNMENT.md)). The Results section has a subsection for each. For the pre-submission, write the whole paper as final, building on your Figma design for what is not yet implemented, and use screenshots of the deployed site, with its Figma placeholders, as figures.
 
 For the reachability challenge, pick and defend at least one:
 

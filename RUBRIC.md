@@ -14,9 +14,9 @@ using the deductions listed below.
 
 ## Pre-Submission Checkpoint
 
-The pre-submission is graded on the same artifacts as the final (paper and demo). The paper
-is final in form, with the work not yet done written as a plan and marked placeholders for
-tables and images. See
+The pre-submission is graded on the same artifacts as the final (paper and demo), plus a
+draft video and a draft presentation. The narrative is final in all of them, with Figma
+placeholders for what is not yet implemented. See
 [ASSIGNMENT.md](ASSIGNMENT.md).
 
 | Challenge | Points |
@@ -24,7 +24,7 @@ tables and images. See
 | Reachability challenge | 5 |
 | Primary challenge | 5 |
 
-- **Reachability challenge (5 pts):** working map in the deployed demo for the one city,
+- **Reachability challenge (5 pts):** fully functional reachability map in the deployed demo for the one city,
   with the comparison and the route layer, plus a Results subsection that describes the
   done work and plans the rest (data source and license, reachability definition, mode
   and threshold, named challenge, encoding, and how the result will be shown).
