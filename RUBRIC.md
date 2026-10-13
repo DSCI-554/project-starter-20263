@@ -12,6 +12,30 @@ using the deductions listed below.
 | 5. Video Demo | 15 |
 | 6. Presentation | 15 |
 
+## Pre-Submission Checkpoint
+
+The pre-submission is graded on the same artifacts as the final (paper and demo). The paper
+is final in form, with the work not yet done written as a plan and marked placeholders for
+tables and images. See
+[ASSIGNMENT.md](ASSIGNMENT.md).
+
+| Challenge | Points |
+| --- | --- |
+| Reachability challenge | 5 |
+| Primary challenge | 5 |
+
+- **Reachability challenge (5 pts):** working map in the deployed demo for the one city,
+  with the comparison and the route layer, plus a Results subsection that describes the
+  done work and plans the rest (data source and license, reachability definition, mode
+  and threshold, named challenge, encoding, and how the result will be shown).
+- **Primary challenge (5 pts):** challenge clearly articulated in the abstract and
+  introduction, related work on it written, and the display design and the Results plan
+  (with placeholders for tables and images) are credible.
+
+Other checkpoint rows (LNCS format, deployment, `SUBMISSION.md` completeness, attendance)
+follow the criteria below. The final grade is pending the paper's results and the demo
+upgrade, plus the video and presentation.
+
 ## 1. Paper: Organization & Presentation (15 pts)
 
 Full credit requires all five sections to be present and logically structured: abstract,
@@ -43,7 +67,7 @@ format. Limitations and future work are thoughtfully discussed.
 
 - Purpose is not clearly articulated (-1 pt)
 - Visualization contributions are not clearly articulated (-2 pts)
-- Visualization challenge(s) are not clearly articulated (-2 pts)
+- Visualization challenge(s) are not clearly articulated; both the primary challenge and the reachability challenge must be named (-2 pts)
 - References are missing or not cited in LNCS format (-1 pt)
 - Limitations and future work are not thoughtfully discussed (-1 pt)
 
@@ -56,6 +80,7 @@ decisions.
 - The design process is not well explained and justified (-1 pt)
 - The implementation process is not well explained and justified (-1 pt)
 - Visual display does not demonstrate sound design decisions (-1 pt)
+- Encoding of the reachability measure (and the travel mode and threshold) is not justified (-1 pt)
 
 ## 4. Project Repository (15 pts)
 

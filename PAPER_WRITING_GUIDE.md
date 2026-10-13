@@ -87,7 +87,24 @@ All citations go in the `mybibliography.bib` file.
 * Making tables in LaTeX by hand is tricky.
 * **Pro-tip:** Use the [Overleaf Tables Introduction](https://www.overleaf.com/learn/latex/Tables#Introduction) to copy a basic example, or use an online **LaTeX Table Generator** (like [tablesgenerator.com](https://www.tablesgenerator.com/)) to paste your data and get a "Booktabs" style table. Another option is to use Gen AI to produce the LaTex.
 
-### 4. Your Paper's Structure & Content
+### 4. Your Two Challenges
+
+Your paper names **two** visualization challenges: your own **primary challenge** and the required **reachability challenge** (see [ASSIGNMENT.md](ASSIGNMENT.md)). The Results section has a subsection for each. For the pre-submission, write the whole paper as final, describe what you have not done yet as a plan, and use marked placeholders for tables and images.
+
+For the reachability challenge, pick and defend at least one:
+
+* Area bias in choropleths (large rural units dominate the picture).
+* Edge overplotting when many routes converge on the same destinations.
+* Asymmetry: reachable from A is not the same as can reach A.
+* Uncertainty or time-of-day variation (for example an estimated rush-hour slowdown).
+* Comparing two reachability sets (peak versus off-peak, or two groups of neighborhoods).
+* Scale-dependent interpretation (MAUP): tract, block group, and grid-cell views telling different stories.
+* Threshold sensitivity: a 10-minute versus a 15-minute walk changing who counts as reached.
+* Keeping a fine-unit choropleth and a route layer legible together.
+
+Related work should cite the isochrone and accessibility literature and state what existing work does not cover. If you use synthetic or estimated data (for example OD flows built from survey data, or a rush-hour slowdown factor), disclose how it was derived and how you validated it.
+
+### 5. Your Paper's Structure & Content
 
 Here is the section-by-section breakdown. Initially, use bullet points as a **checklist** to ensure you've covered everything in your text.
 
@@ -159,6 +176,7 @@ The abstract is a short (150 to 250-word) summary of your \emph{entire} paper. I
 % Show your visual display in action!
 \begin{itemize}
     \item Define **use cases" and "scenarios** for the visual displays you have created.
+    \item Structure this section with one subsection for your \textbf{primary challenge} and one for the \textbf{reachability map}.
     \item **Use figures (screenshots) heavily here!**
     \item Highlight your **contributions**. This is where you *show* (don't just tell) the value of your work.
 \end{itemize}
