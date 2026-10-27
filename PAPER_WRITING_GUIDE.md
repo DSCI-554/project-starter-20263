@@ -47,7 +47,23 @@ Essential LaTeX and writing tips you will need to write and format your paper.
 
 #### ✍️ Citing Sources (Don't just copy-paste links!)
 
-All citations go in the `mybibliography.bib` file.
+The LNCS template ships with a hard-coded sample reference list (`thebibliography`) and **no** `.bib` file. Switch to BibTeX first, then add every citation to your own `mybibliography.bib` file.
+
+**One-time setup (do this before adding any citations):**
+
+1. **Create the file.** In Overleaf, click the `New File` icon at the top of the file tree, name it exactly `mybibliography.bib`, and put it at the top level next to your `.tex` file.
+2. **Delete the sample references.** In your `.tex` file, remove the whole `\begin{thebibliography}{8} ... \end{thebibliography}` block. Also remove the sample sentence that cites `ref_article1`, `ref_lncs1`, `ref_book1`, `ref_proc1`, and `ref_url1`, since those keys will no longer exist.
+3. **Point LaTeX at your file.** In the same place, add these two lines (the template has them commented out; make sure they are not commented out):
+
+    ```tex
+    \bibliographystyle{splncs04}
+    \bibliography{mybibliography}
+    ```
+
+    `splncs04` is the LNCS reference style and is already included in the template. Write the name **without** the `.bib` extension.
+4. **Recompile.** Click `Recompile`. Only papers you `\cite{...}` in the text appear in the References list. If a citation shows up as `[?]` or the list is empty, check the file name, the citation key spelling, and the `Logs and output files` panel for BibTeX errors. A full clean build (`Recompile from scratch` under the Recompile arrow) fixes most stale-cache problems.
+
+**Adding each citation:**
 
 * **For Academic Papers (from Google Scholar):**
     1. Find your paper on [Google Scholar](https://scholar.google.com/).
@@ -57,17 +73,19 @@ All citations go in the `mybibliography.bib` file.
     5. In your main `.tex` file, you can cite this paper using its key (e.g., `\cite{ware2004information}`).
 
 * **For Websites (like D3.js, blogs, etc.):**
-    You need to create a `@misc` entry in your `mybibliography.bib` file. See the `d3_url` entry for an example. Here's a template:
+    You need to create a `@misc` entry in your `mybibliography.bib` file. Here's a template:
 
     ```bibtex
-    @misc{YourKeyHere,
-      author = {Author's Name (or Organization)},
-      title = {Title of the Webpage},
-      howpublished = {\url{[https://full.url.here/](https://full.url.here/)}},
-      year = {Year Accessed},
-      note = {Accessed: YYYY-MM-DD}
+    @misc{d3_url,
+      author = {Mike Bostock and {D3.js contributors}},
+      title = {D3.js: Data-Driven Documents},
+      howpublished = {\url{https://d3js.org/}},
+      year = {2026},
+      note = {Accessed: 2026-10-27}
     }
     ```
+
+    Replace the key, author (or organization), title, URL, year, and access date with your own. Cite it with `\cite{d3_url}`.
 
 #### 🖼️ Adding Images (Figures)
 
