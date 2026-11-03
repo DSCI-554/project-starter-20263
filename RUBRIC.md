@@ -24,7 +24,7 @@ placeholders for what is not yet implemented. See
 | Reachability challenge | 5 |
 | Primary challenge | 5 |
 
-- **Reachability challenge (5 pts):** fully functional "travel-time accessibility map with flow lines" in the deployed demo for one city, state, or country with the comparison and the route layer, plus a Results subsection that describes the work done and plans the rest (data source and license, reachability definition, mode and threshold, named challenge, encoding, and how the result will be shown).
+- **Reachability challenge (5 pts):** fully functional "travel-time accessibility map with flow lines" in the deployed demo for one city, state, or country with the choropleth and the route layer, plus a Results subsection that describes the work done and plans the rest (data source and license, reachability definition, mode and threshold, named challenge, encoding, and how the result will be shown).
 - **Primary challenge (5 pts):** challenge clearly articulated in the abstract and
   introduction, related work on it written, and the display design and the Results plan
   (with placeholders for tables and images) are credible.
