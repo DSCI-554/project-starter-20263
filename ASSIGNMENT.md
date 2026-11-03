@@ -18,7 +18,7 @@ The point of this map is to make a *computed* measure visible, not to filter and
 The reachability map must include:
 
 1. **Computed reachability.** A travel-time, distance, or hop measure derived from network or relational data (routing, schedules, flows, OD pairs), not a column that arrives in the source. Precomputing offline and shipping static JSON/CSV is expected.
-2. **One mode and one level, matched to what is being reached.** Walking suits parks and green spaces; driving suits regional venues. Justify the mode and the travel-time threshold, and use a unit finer than the city, state, or country (e.g., a census block, tract, or county).
+2. **One mode and one level, matched to what is being reached.** Walking suits parks and green spaces; driving suits regional venues. Justify the mode and the travel-time threshold, and show the result as a **choropleth** over administrative boundaries finer than the city, state, or country (e.g., census block, tract, or county), not a hex or grid layer.
 3. **A single travel-time measure.** Show one travel-time condition on the same measure, for example, peak or off-peak. If you model rush hour, a documented average slowdown applied to free-flow routing times is enough, and it must be disclosed as an estimate.
 4. **A route or path layer** showing the network behind the numbers, with a plan for overplotting.
 5. **Layer and click interaction** (toggle layers, click a destination to see its catchment). Anything beyond that is optional.
