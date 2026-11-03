@@ -24,10 +24,7 @@ placeholders for what is not yet implemented. See
 | Reachability challenge | 5 |
 | Primary challenge | 5 |
 
-- **Reachability challenge (5 pts):** fully functional reachability map in the deployed demo for the one city,
-  with the comparison and the route layer, plus a Results subsection that describes the
-  done work and plans the rest (data source and license, reachability definition, mode
-  and threshold, named challenge, encoding, and how the result will be shown).
+- **Reachability challenge (5 pts):** fully functional "travel-time accessibility map with flow lines" in the deployed demo for one city, state, or country with the comparison and the route layer, plus a Results subsection that describes the work done and plans the rest (data source and license, reachability definition, mode and threshold, named challenge, encoding, and how the result will be shown).
 - **Primary challenge (5 pts):** challenge clearly articulated in the abstract and
   introduction, related work on it written, and the display design and the Results plan
   (with placeholders for tables and images) are credible.
@@ -114,6 +111,4 @@ voice-over, showcasing the purpose, system contributions, functionality, and des
 
 ## 6. Presentation (15 pts)
 
-The presentation is polished and engaging. Purpose, contributions, and challenges are
-clearly conveyed. It effectively incorporates video clips, explains visual design choices,
-and demonstrates the work effectively. It discusses limitations and future work.
+The presentation is polished and engaging. Purpose, contributions, and challenges are clearly conveyed. It effectively incorporates video clips, explains visual design choices, and demonstrates the work effectively. It discusses limitations and future work. The presentation is graded as a group for 10 points, while the remaining 5 points are graded individually based on attendance and participation in project labs. Excused absences are excluded from the attendance calculation.
