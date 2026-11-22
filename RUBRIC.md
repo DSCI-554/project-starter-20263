@@ -83,7 +83,9 @@ decisions.
 
 Uses Bootstrap and React or Vue.js effectively. The codebase is well structured.
 `README.md` clearly documents setup, usage, and system description. The project is
-deployed and publicly accessible.
+deployed and publicly accessible. No raw or downloaded data is committed, now or in git
+history: raw data is fetched from the source or copied from cloud storage when doing the
+analysis.
 
 - App is not at the top level of the repository (-1 pt)
 - Bootstrap loaded from a CDN, not as a proper dependency (-0.5 pts)
@@ -94,6 +96,7 @@ deployed and publicly accessible.
 - `README.md` does not document setup and usage (-1 pt)
 - Not deployed (-4 pts)
 - Deployment is not publicly accessible (-1 pt)
+- Raw or downloaded data committed, now or in git history, instead of being fetched from the source or copied from cloud storage when doing the analysis (-5 pts)
 
 ## 5. Video Demo (15 pts)
 
@@ -101,7 +104,7 @@ Full credit requires a YouTube link in the submission, a video under 2 minutes w
 voice-over, showcasing the purpose, system contributions, functionality, and design.
 
 - Link not provided (-10 pts)
-- Video is private or unlisted and cannot be viewed (-1 pt)
+- Video is private or cannot be viewed, so it counts as not submitted (-15 pts). Public and Unlisted are both accepted
 - Video exceeds 2 minutes (-1 pt)
 - No voice-over present (-1 pt)
 - Missing purpose (-2 pts)
