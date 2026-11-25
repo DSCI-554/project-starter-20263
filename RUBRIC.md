@@ -94,8 +94,7 @@ analysis.
 - React or Vue.js is not used (-4 pts)
 - `README.md` does not describe the project (-1 pt)
 - `README.md` does not document setup and usage (-1 pt)
-- Not deployed (-4 pts)
-- Deployment is not publicly accessible (-1 pt)
+- Demo is not deployed or not publicly accessible, so this criterion counts as not submitted (-15 pts)
 - Raw or downloaded data committed, now or in git history, instead of being fetched from the source or copied from cloud storage when doing the analysis (-5 pts)
 
 ## 5. Video Demo (15 pts)
